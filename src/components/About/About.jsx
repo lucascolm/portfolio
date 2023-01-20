@@ -1,5 +1,5 @@
 import React from "react";
-
+import Languages from "../Languages/Languages";
 const About = () => {
   return (
     <div id="about">
@@ -101,6 +101,7 @@ const About = () => {
               </div>
             </div>
           </div>
+          <Languages/>
         </div>
       </section>
     </div>
