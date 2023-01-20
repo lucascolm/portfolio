@@ -1,10 +1,10 @@
 import React from "react";
-import { SiLinkedin, SiGithub, SiNetlify } from "react-icons/si";
-{
+import { SiLinkedin, SiGithub } from "react-icons/si";
+
   /* <div className="flex justify-center text-color-amber-500">
         <p>&copy; 2022 All rights reserved..</p>
       </div> */
-}
+
 const Footer = () => {
   return (
     <footer className="bg-zinc-800 text-white">
