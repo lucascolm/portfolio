@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../NavBar/NavBar'
 import Footer from '../Footer/Footer'
 import About from '../About/About'
+
 const Landing = () => {
   return (
     <div id="home">
@@ -10,6 +11,7 @@ const Landing = () => {
         
       </section>
       <About/>
+      
       <Footer/>
     </div>
   )
