@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from '../NavBar/NavBar'
 import Footer from '../Footer/Footer'
 import About from '../About/About'
-
+import Projects from '../Projects/Projects'
 const Landing = () => {
   return (
     <div id="home">
@@ -11,7 +11,7 @@ const Landing = () => {
         
       </section>
       <About/>
-      
+      <Projects/>
       <Footer/>
     </div>
   )
