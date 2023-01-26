@@ -45,8 +45,8 @@ const Email = () => {
   };
 
   return (
-    <div id="contact" className="w-full h-screen bg-gray-900 py-12">
-    <div className="bg-gray-900 h-50 py-4"></div>
+    <div id="contact" className="w-full h-screen bg-zinc-800 py-12">
+    <div className="bg-zinc-800 h-50 py-4"></div>
     <p className="text-3xl font-bold leading-7 text-center text-gray-100 grid mb-8">
       Contact me
       <span className="text-base font-medium text-center text-gray-100 mt-2">
