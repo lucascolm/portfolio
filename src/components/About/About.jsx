@@ -6,7 +6,7 @@ const About = () => {
       <section className="text-white bg-zinc-800 py-12">
         <div className="px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
           <div className="max-w-lg mx-auto text-center">
-            <h2 className="text-2xl font-bold sm:text-3xl">About me</h2>
+            <h2 className="text-2xl font-bold sm:text-3xl text-amber-400">About me</h2>
             <p className="mt-4 text-gray-300">
               Hi! I'm Lucas, I started in the IT world in high school where I
               had my first contact with some languages like C and java.So I
