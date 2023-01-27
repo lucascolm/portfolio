@@ -47,14 +47,14 @@ const Email = () => {
   return (
     <div id="contact" className="w-full h-screen bg-zinc-800 py-12">
     <div className="bg-zinc-800 h-50 py-4"></div>
-    <p className="text-3xl font-bold leading-7 text-center text-gray-100 grid mb-8">
+    <p className="text-3xl font-bold leading-7 text-center text-amber-500 grid mb-8">
       Contact me
       <span className="text-base font-medium text-center text-gray-100 mt-2">
         Complete the next form and send me by email.
       </span>
     </p>
-    <div className="max-w-2xl mx-auto p-px bg-gradient-to-r from-blue-400 to-purple-400 rounded mb-2">
-      <div className="bg-gray-900 w-full shadow p-4 sm:p-4">
+    <div className="max-w-3xl mx-auto p-px bg-gradient-to-r from-blue-400 to-purple-400 rounded mb  -2">
+      <div className="bg-zinc-800 w-full shadow p-4 sm:p-4">
         <form ref={form} onSubmit={sendEmail}>
           <div className="md:flex items-center mt-2">
             <div className="w-full md:w-1/2 flex flex-col">
