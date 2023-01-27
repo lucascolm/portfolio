@@ -5,6 +5,7 @@ const NavBar = () => {
   return (
    <nav className="fixed left-0 top-0 w-full bg-zinc-800 z-200">
     <div className="container flex items-center justify-center p-6 mx-auto capitalize text-gray-300">
+      <div className=" border-b border-amber-500 pb-3">
       <a href="#home"
       className="border-b-2 border-transparent hover:text-gray-200 hover:border-amber-500 mx-1.5 sm:mx-6 ">
       Home
@@ -21,6 +22,7 @@ const NavBar = () => {
        className="border-b-2 border-transparent hover:text-gray-200 hover:border-amber-500 mx-1.5 sm:mx-6 ">
         Contact
       </a>
+      </div>
     </div>
    </nav> 
   )
