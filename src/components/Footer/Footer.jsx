@@ -13,7 +13,7 @@ const Footer = () => {
           <nav className="flex justify-center gap-4 text-sm font-medium sm:justify-start">
             <a href="#home" className="hover:opacity-75"> Home </a>
             <a href="#about" className="hover:opacity-75"> About me </a>
-            <a href="#proyects" className="hover:opacity-75"> Projects </a>
+            <a href="#projects" className="hover:opacity-75"> Projects </a>
             <a href="#contact" className="hover:opacity-75"> Contact </a>
           </nav>
           <div className="mt-6 flex justify-center gap-6 sm:mt-0 sm:justify-end">
