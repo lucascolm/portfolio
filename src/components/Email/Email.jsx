@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
-import { Result } from "postcss";
+
 
 const Email = () => {
   const form = useRef();
@@ -20,10 +20,10 @@ const Email = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_gffug3w",
-        "template_ypmu4d4",
+        "service_djzzpub",
+        "template_dwlzlae",
         e.target,
-        "YoRQhH40w16uXMQ-b"
+        "WN29wdvQRorJtoVkP"
       )
       .then(
         (result) => {
