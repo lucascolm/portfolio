@@ -4,6 +4,7 @@ import Footer from "../Footer/Footer";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
 import Email from "../Email/Email";
+import SideBar from "../SideBar/SideBar";
 const Landing = () => {
   return (
     <div clas id="home">
@@ -26,6 +27,7 @@ const Landing = () => {
               <span className=" mt-5 text-lg sm:block bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500 ">
                 FULLSTACK WEB DEVELOPER
               </span>
+              <SideBar/>
             </h1>
           </div>
         </div>

@@ -6,7 +6,7 @@ const SideBar = () => {
       <div
         className="flex justify-center items- center px-1 py-1.5 relative group outline outline-offset-2 outline-1 outline-blue-400 rounded hover:cursor-pointer hover:animate-pulse "
         onClick={() =>
-          window.open("https://www.linkedin.com/in/gonzalo-fara-377404212/")
+          window.open("https://www.linkedin.com/in/lucas-colman-paganelli-2a9086186/")
         }
       >
         <SiLinkedin size={28} fill="#60a5fa" />
@@ -14,19 +14,19 @@ const SideBar = () => {
 
       <div
         className="flex justify-center items- center px-1 py-1.5 relative group outline outline-offset-2 outline-1 outline-blue-400 rounded hover:cursor-pointer hover:animate-pulse "
-        onClick={() => window.open("https://github.com/gonzalofara")}
+        onClick={() => window.open("https://github.com/lucascolm")}
       >
         <SiGithub size={28} fill="#60a5fa" />
       </div>
 
-      <div
+      {/* <div
         className="flex justify-center items- center px-1 py-1.5 relative group outline outline-offset-2 outline-1 outline-blue-400 rounded hover:cursor-pointer hover:animate-pulse "
         onClick={() =>
           window.open("https://app.netlify.com/teams/fonsofara/sites")
         }
       >
         <SiNetlify size={28} fill="#60a5fa" />
-      </div>
+      </div> */}
       <a
         href="#contact"
         className="flex justify-center items- center px-1 py-1.5 relative group outline outline-offset-2 outline-1 outline-blue-400 rounded hover:cursor-pointer hover:animate-pulse "
