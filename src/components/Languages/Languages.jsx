@@ -23,9 +23,9 @@ import "./Languages.css";
 const languages = () => {
   return (
     <div className=" bg-zinc-800 w-full mx-auto grid content-center">
-      <h2 className="text-medium mb-4 text-center underline text-gray-1000">
+      <h2 className="text-medium mb-9 text-center underline text-gray-1000">
         Programming languages and libraries</h2>
-      <div className="mx-auto lg:flex lg:gap-1 md:grid md:grid-cols-6 grid grid-cols-5 gap-2 items-center">
+      <div className="mx-auto lg:grid lg:grid-cols-9 lg:gap-5 md:grid md:grid-cols-6 grid grid-cols-5 gap-2 items-center">
       <SiHtml5 color="#ff6900" size={40} />
         <SiJavascript color="#ffc107" size={40} />
         <SiCss3 color="#00bcd4" size={40} />

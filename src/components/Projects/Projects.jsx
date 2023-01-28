@@ -1,4 +1,5 @@
 import React from "react";
+import "../Languages/Languages.css";
 import { TbBrandReactNative } from "react-icons/tb";
 import {
   SiJsonwebtokens,
@@ -24,17 +25,17 @@ import {
 import { GrStorage } from "react-icons/gr";
 const Projects = () => {
   return (
-    <div id="projects" className="md:py-12 bg-zinc-800">
+    <div id="projects" className=" bg-zinc-800">
       <section className="flex justify-center items-center bg-zinc-800 md:py-14 relative ">
         <div className="mx-auto md:px-8 px-4 ">
           <div
             role="main"
             className="flex flex-col items-center justify-center"
           >
-            <h1 className=" text-3xl font-bold text-center text-gray-800 dark:text-gray-100">
+            <h1 className=" text-3xl font-bold text-center text-amber-400 ">
               Some Projects
             </h1>
-            <p className="text-base leading-normal text-center text-gray-600 dark:text-white mt-2 lg:w-1/2 md:w-10/12 w-11/12">
+            <p className="text-base leading-normal text-center text-white dark:text-white mt-2 lg:w-1/2 md:w-10/12 w-11/12">
               Click on the thumbnail to open demo in a new tab
             </p>
           </div>
