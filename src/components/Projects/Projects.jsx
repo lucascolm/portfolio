@@ -43,7 +43,7 @@ const Projects = () => {
             <div className=" mt-1 sm:mt-0">
               <div className="sm:flex items-center justify-between gap-x-1">
                 <div className="sm:w-1/2 relative  hover:cursor-pinter contrast-50 hover:contrast-100"
-                  onClick={() => window.open("https://mascotapps.vercel.app/")}
+                  onClick={() => window.open("https://github.com/lucascolm/sistema_acreditaciones_back")}
                 >
                   <div>
                     <p className="md:p-2 p-2 text-xs font-mediun leading-3 text-black absolute top-8 right-2 bg-amber-500 rounded-2xl">
@@ -51,9 +51,13 @@ const Projects = () => {
                     <div className="absolute bottom-0 left-0 p-4 bg-gradient-to-r from-gray-900 to-transparent">
                       <h2 className="text-xl font-semibold text-gray-100">Sistema de acreditaciones</h2>
                       <div className="flex items-center gap-1">
-                        <SiHtml5 fill="orange" size={20} />
-                        <SiJavascript fill="yellow" size={20} />
-                        <SiTailwindcss color="#00bcd4" size={25} />
+                      <SiReact color="#00bcd4" size={22} />
+                      <SiRedux color="#673ab7" size={22} />
+                      <SiCss3 color="#00bcd4" size={20} />
+                      <SiNodedotjs color="#ffc107" size={22} />
+                      <SiExpress color="#673ab7" size={22} />
+                      <SiPostgresql color="#3850d6" size={22} />
+                      <SiSequelize color="#0097a7" size={22} />
                       </div>
                     </div>
                   </div>
@@ -62,7 +66,7 @@ const Projects = () => {
                 </div>
                 <div
                 className="sm:w-1/2 relative mt-1 sm:mt-0 hover:cursor-pointer contrast-50 hover:contrast-100"
-                  onClick={() => window.open("https://mascotapps.vercel.app/")}
+                  onClick={() => window.open("https://mascotapp.vercel.app/")}
                 >
                   <div>
                     <p className="md:p-2 p-2 text-xs font-medium leading-3 text-black absolute top-8 right-2 bg-amber-500 rounded-2xl"
